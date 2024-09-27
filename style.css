@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -216,6 +218,14 @@ html {
   align-items: center;
   justify-content: center;
   background: #161616;
+}
+
+.top-text-container h1,
+.bottom-text-container h1 {
+  font-family: 'Pacifico', cursive; /* Sassy, playful font */
+  font-size: 1.5rem; /* Adjust the size if needed */
+  color: #fff; /* White text color */
+  margin: 0;
 }
 
 /* Ensure the text is centered and positioned above and below the cat */
